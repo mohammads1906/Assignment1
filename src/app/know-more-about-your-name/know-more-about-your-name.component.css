@@ -1,0 +1,31 @@
+h1
+{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.mainComponent3
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.inputCls
+{
+    margin-left: 20px;
+}
+.nameDetailsDiv
+{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nameDetails
+{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.lastDiv
+{
+    margin-bottom: 10px;
+}

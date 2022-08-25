@@ -1,0 +1,18 @@
+<div class="mainComponent2">
+<h1>Choose your favourite Rainbow Colors:</h1>
+<div class="listColor">
+    <div>
+      <ul>
+        <li *ngFor="let item of checkboxesDataList">
+          <input type="checkbox" name="" id="" [(ngModel)]="item.isChecked" (change)="changeSelection()">{{item.label}}
+        </li>
+      </ul>
+    </div>
+    <div>
+        <button type="button" class="selectedColor" (click)="getSelectedColors()">Submit</button>
+    </div>
+    <div class="col-md-4">
+        <p id="listOfSelectedColors"></p>
+    </div>
+  </div>
+</div>

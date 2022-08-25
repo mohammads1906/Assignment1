@@ -1,0 +1,19 @@
+h1
+{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.mainComponent2
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.colorClss,.selectedColor
+{
+    margin-left: 20px;
+}
+.listColor
+{
+    font-size: 16px;
+}
